@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  padding: 80px 0 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .row .col {
+    width: 100%;
+  }
+}
+
+.col {
+  width: 50%;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.box div {
+  width: 50%;
+}
+
+.box .box-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.product-descr {
+  font-size: 15px;
+  color: gray;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.product-old-price {
+  font-size: 15px;
+  color: gray;
+}
+
+.product-price s {
+  color: gray;
+}
+
+.product-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  padding: 10px;
+}
+
+.stars-span {
+  padding: 0 0 10px;
+}
